@@ -1,6 +1,7 @@
 <template>
-  <section class="hero is-fullheight is-justify-content-center bg--white">
-    <div class="title mb-3 is-size-2 pt-5">
+  <section class="hero is-fullheight bg--white">
+    <div class="">
+    <div class="title mb-3 is-size-2 pt-5 has-text-centered">
       <span class="text--secondary-light">Services</span> <span>I provide</span>
       </div>
     <div class="columns is-vcentered is-justify-content-center">
@@ -21,6 +22,7 @@
           
         </div>
       </div>
+    </div>
     </div>
   </section>
 </template>
