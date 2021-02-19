@@ -1,0 +1,11 @@
+.bg {
+  &--tertiary-light {
+    background-color: $color-tertiary-light;
+  }
+  &--tertiary-dark {
+    background-color: $color-tertiary-dark;
+  }
+  &--primary-light {
+    background-color: $color-primary-light;
+  }
+}
