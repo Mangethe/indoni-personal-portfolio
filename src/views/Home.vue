@@ -2,11 +2,15 @@
   <section class="hero is-fullheight bg--tertiary-dark">
     <div class="hero-body is-flex is-justify-content-center">
       <div class="">
+        <div class="is-flex is-justify-content-center mb-6">
         <div class="image is-128x128">
           <img class="is-rounded" alt="Vue logo" src="../assets/logo.png" />
-    </div>
-    <div class="title">Hello, I'm Carla Wilby</div>
-    <div class="subtitle">Software Engineer</div>
+        </div>
+        </div>
+    <div class="title mb-2 is-size-4">
+      <span class="text--secondary-light">Hello,</span> <span class="text--tertiary-dark">I'm Carla Wilby</span>
+      </div>
+    <div class="title text--tertiary-dark is-size-2 is-uppercase">Software Engineer</div>
     <p>I am a FullStack Web Developer and I love cats</p>
       </div>
     </div>

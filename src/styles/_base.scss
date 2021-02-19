@@ -6,9 +6,30 @@
     box-sizing: inherit;
 }
 
+/* Default font stack */
+html,
+body,
+button,
+input,
+select,
+textarea { font-family: $font-family-default; }
+
+/* Display font stack */
+h1,h2,h3,h4,h5,h6 { font-family: $font-family-default; }
+
+/* Alternate font stack */
+blockquote, figcaption { font-family: $font-family-serif;  }
+
+/* Caption font stack, should be suitable for smaller sizes */
+[role=contentinfo], .caption { font-family: $font-family-serif; }
+
+/* Monospace font stack, for code samples and preformatted content */
+pre, code, kbd, samp { font-family: $font-family-serif; }
+
+
 html {
     // This defines what 1rem is
-    font-size: 62.5%; //1 rem = 10px; 10px/16px = 62.5%
+    font-size: 100%; //1 rem = 10px; 10px/16px = 62.5%
 
     @include respond(tab-land) { // width < 1200?
         font-size: 56.25%; //1 rem = 9px, 9/16 = 50%

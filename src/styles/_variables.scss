@@ -8,6 +8,7 @@ $color-secondary-dark: #ff7730;
 
 $color-tertiary-light: #F9F9FF;
 $color-tertiary-dark: #F2F4F9;
+$color-tertiary-dark-2: #2C3E61;
 
 $color-grey-light-1: #f7f7f7;
 $color-grey-light-2: #eee;
@@ -22,3 +23,7 @@ $color-black: #000;
 
 // FONT
 $default-font-size: 1.6rem;
+
+$font-family-sans: 'Quicksand', sans-serif;
+$font-family-serif: 'Montserrat', sans-serif;
+$font-family-default: $font-family-sans;
