@@ -8,4 +8,19 @@
   &--primary-light {
     background-color: $color-primary-light;
   }
+  &--white {
+    background-color: $color-white;
+  }
+}
+
+.text {
+  &--secondary-light {
+    color: $color-secondary-light;
+  }
+  &--black {
+    color: $color-black;
+  }
+  &--tertiary-dark {
+    color: color-tertiary-dark-2;
+  }
 }
