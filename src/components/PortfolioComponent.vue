@@ -1,6 +1,6 @@
 <template>
   <!-- portfolio -->
-<section class="section">
+<section id="Portfolio" class="section">
   <div class="container">
     <div class="has-text-centered">
       <h2 class="section-title">Portfolio</h2>

@@ -1,7 +1,7 @@
 <template>
   
 <!-- education -->
-<section class="section is-relative">
+<section id="Education" class="section is-relative">
   <!-- bg image -->
   <img class="image edu-bg-image" src="../images/backgrounds/education-bg.png" alt="bg-image">
   <div class="container">

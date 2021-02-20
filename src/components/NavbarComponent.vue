@@ -15,11 +15,11 @@
   
     <div id="navigation" class="navbar-menu">
       <div class="navbar-end">
-        <a href="#index" class="navbar-item">Home</a>
-        <a href="#about" class="navbar-item">About</a>
-        <a href="blog.html" class="navbar-item">blog</a>
-        <a href="/portfolio" class="navbar-item">portfolio</a>
-        <a href="contact.html" class="navbar-item">contact</a>
+        <div @click="handleNav('#parallax')" class="navbar-item pointer">Home</div>
+        <div @click="handleNav('#About')" class="navbar-item pointer">About</div>
+        <div @click="handleNav('#Blog')" class="navbar-item pointer">blog</div>
+        <div @click="handleNav('#Portfolio')" class="navbar-item pointer">portfolio</div>
+        <div @click="handleNav('#Contact')" class="navbar-item pointer">contact</div>
       </div>
     </div>
   </nav>
@@ -36,6 +36,16 @@ export default {
       $(".filter-menu .button").click(function () {
 		$(this).addClass("is-active").siblings().removeClass('is-active');
 	});
+    },
+    handleNav(navId) {
+      console.log("HERE: ", navId);
+      this.scrollTo(navId);
+
+    },
+    scrollTo(id) {
+      $("html,body").animate({
+        scrollTop: $(id).offset().top
+      }, 2000);
     }
   }
 };

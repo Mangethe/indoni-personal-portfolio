@@ -1,5 +1,5 @@
 <template>
-  <section class="section">
+  <section id="Blog" class="section">
   <div class="container">
     <div class="has-text-centered">
       <h2 class="section-title">Blogs</h2>
