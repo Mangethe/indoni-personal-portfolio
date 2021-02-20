@@ -1,21 +1,49 @@
 <template>
-  <div class="p-3">
-    <div class="is-flex">
-      <div class="image is-96x96 mr-3">
-      <img class="is-rounded" alt="Vue logo" src="../assets/logo.png" />
+  <!-- services -->
+<section class="section">
+  <div class="container">
+    <div class="has-text-centered">
+      <h2 class="section-title">Services</h2>
+    </div>
+    <div class="columns is-multiline">
+      <div class="column">
+        <div class="card hover-shadow shadow">
+          <div class="card-content has-text-centered">
+            <i class="ti-palette icon mb-10 is-inline-block"></i>
+            <h4 class="mb-20">UI Design</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+              dolore magna aliqua.</p>
+          </div>
+        </div>
       </div>
-      <div>
-        <span class="is-size-4">UI/UX</span>
-      <p class="is-size-7">Landing Pages, User Flow, Wireframing, Prototyping, Mobile App Design</p>
+      <div class="column">
+        <div class="card active-bg-primary hover-shadow shadow">
+          <div class="card-content has-text-centered">
+            <i class="ti-vector icon mb-10 is-inline-block"></i>
+            <h4 class="mb-20">UX Design</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+              dolore magna aliqua.</p>
+          </div>
+        </div>
+      </div>
+      <div class="column">
+        <div class="card hover-shadow shadow">
+          <div class="card-content has-text-centered">
+            <i class="ti-panel icon mb-10 is-inline-block"></i>
+            <h4 class="mb-20">Interaction Design</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+              dolore magna aliqua.</p>
+          </div>
+        </div>
       </div>
     </div>
   </div>
+</section>
+<!-- /services -->
 </template>
 
 <script>
-// @ is an alias to /src
-
 export default {
-  name: "ServiceComponent"
-};
+  name: "ServicesComponent"
+}
 </script>

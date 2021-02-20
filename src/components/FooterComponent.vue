@@ -1,0 +1,33 @@
+<template>
+  <!-- footer -->
+<footer class="has-background-dark footer-section">
+  <div class="section">
+    <div class="container">
+      <div class="columns">
+        <div class="column is-4-tablet">
+          <h5 class="has-text-light">Email</h5>
+          <p class="has-text-white paragraph-lg font-secondary">steve.fruits@email.com</p>
+        </div>
+        <div class="column is-4-tablet">
+          <h5 class="has-text-light">Phone</h5>
+          <p class="has-text-white paragraph-lg font-secondary">+880 2544 658 256</p>
+        </div>
+        <div class="column is-4-tablet">
+          <h5 class="has-text-light">Address</h5>
+          <p class="has-text-white paragraph-lg font-secondary">125/A, CA Commercial Area, California, USA</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="section is-small has-text-centered has-border-top is-border-dark">
+    <p class="has-text-light">Copyright ©
+      a theme by <a href="themefisher.com">themefisher.com</a></p>
+  </div>
+</footer>
+</template>
+
+<script>
+export default {
+  name:"FooterComponent"
+}
+</script>

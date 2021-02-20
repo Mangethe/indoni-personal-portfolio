@@ -1,44 +1,42 @@
 <template>
-  <nav class="navbar is-transparent is-fixed" role="navigation" aria-label="main navigation">
-  <div class="navbar-brand">
-    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
-      <span aria-hidden="true"></span>
-      <span aria-hidden="true"></span>
-      <span aria-hidden="true"></span>
-    </a>
-  </div>
-
-  <div id="navbarBasicExample" class="navbar-menu">
-    <div class="navbar-end">
-      <router-link to="/" class="navbar-item">
-        Home
-      </router-link>
-
-      <router-link to="/services" class="navbar-item">
-        Services
-      </router-link>
-
-      <router-link to="/projects" class="navbar-item">
-        About
-      </router-link>
-
-      <router-link to="/about" class="navbar-item">
-        About
-      </router-link>
-
-      <router-link to="/contact" class="navbar-item">
-        Contact
-      </router-link>
- 
+    <header>
+  <nav class="navbar is-dark is-fixed-top" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+      <a class="navbar-item" href="index.html">
+        <img src="../images/logo.png" width="112" height="28">
+      </a>
+  
+      <a role="button" @click="handleClick" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navigation" >
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
     </div>
-  </div>
-</nav>
+  
+    <div id="navigation" class="navbar-menu">
+      <div class="navbar-end">
+        <a href="#index" class="navbar-item">Home</a>
+        <a href="#about" class="navbar-item">About</a>
+        <a href="blog.html" class="navbar-item">blog</a>
+        <a href="/portfolio" class="navbar-item">portfolio</a>
+        <a href="contact.html" class="navbar-item">contact</a>
+      </div>
+    </div>
+  </nav>
+</header>
 </template>
 
 <script>
 // @ is an alias to /src
-
+import $ from "jquery";
 export default {
-  name: "NavbarComponent"
+  name: "NavbarComponent",
+  methods: {
+    handleClick() {
+      $(".filter-menu .button").click(function () {
+		$(this).addClass("is-active").siblings().removeClass('is-active');
+	});
+    }
+  }
 };
 </script>
