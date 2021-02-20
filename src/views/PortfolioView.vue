@@ -54,7 +54,7 @@ export default {
   },
 
   mounted() {
-    this.$analytics.logEvent("view-site");
+    // this.$analytics.logEvent("view-site");
 
     // Check for click events on the navbar burger icon
     $(".navbar-burger").click(function() {
