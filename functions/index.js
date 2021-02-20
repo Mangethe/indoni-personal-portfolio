@@ -17,6 +17,10 @@ exports.submit = functions.https.onRequest((req, res) => {
       return;
     }
 
+    // in case you get CORS errors you need these 2 lines of code
+    res.set("Access-Control-Allow-Origin", "*");
+    res.set("Access-Control-Allow-Credentials", "true");
+
     const mailOptions = {
       from: req.body.email,
       replyTo: req.body.email,
