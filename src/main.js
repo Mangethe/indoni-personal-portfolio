@@ -3,7 +3,7 @@ import App from "./App.vue";
 import router from "./router";
 import store from "./store";
 import { firebase } from "@firebase/app";
-require("firebase/firestore");
+require("firebase/analytics");
 require("firebase/app");
 
 firebase.initializeApp({
@@ -15,6 +15,9 @@ firebase.initializeApp({
   measurementId: process.env.VUE_APP_FIREBASE_MEASUREMENT_ID,
   messagingSenderId: process.env.VUE_APP_FIREBASE_MESSAGE_SENDER_ID
 });
+
+firebase.analytics();
+Vue.prototype.$analytics = firebase.analytics();
 
 Vue.config.productionTip = false;
 

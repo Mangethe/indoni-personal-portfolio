@@ -45,6 +45,7 @@ export default {
   },
   methods: {
     sendMail: function() {
+      this.$analytics.logEvent("send-email");
       // in a real app, it would be better if the URL is extracted as a env variable
       const url = `https://us-central1-${process.env.VUE_APP_FIREBASE_PROJECT_ID}.cloudfunctions.net/submit`;
       const payload = {
