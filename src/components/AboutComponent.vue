@@ -1,6 +1,6 @@
 <template>
   <!-- about -->
-<section class="section">
+<section id="About" class="section">
   <div class="container">
     <div class="columns is-centered">
       <div class="column is-four-fifths-desktop has-text-centered">

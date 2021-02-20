@@ -1,6 +1,6 @@
 <template>
   <!-- skills -->
-<section class="section">
+<section id="Skills" class="section">
   <div class="container">
     <div class="has-text-centered">
       <h2 class="section-title">Skills</h2>

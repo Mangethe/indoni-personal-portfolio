@@ -1,6 +1,6 @@
 <template>
   <!-- contact -->
-<section class="section section-on-footer" data-background="../images/backgrounds/bg-dots.png">
+<section id="Contact" class="section section-on-footer" data-background="../images/backgrounds/bg-dots.png">
   <div class="container">
     <div class="has-text-centered">
       <h2 class="section-title">Contact Info</h2>
