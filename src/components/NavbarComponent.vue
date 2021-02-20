@@ -2,9 +2,10 @@
     <header>
   <nav class="navbar is-dark is-fixed-top" role="navigation" aria-label="main navigation">
     <div class="navbar-brand">
-      <a class="navbar-item" href="index.html">
-        <img src="../images/logo.png" width="112" height="28">
-      </a>
+      <div class="navbar-item" @click="handleNav('#parallax')">
+        <!-- <img src="../images/logo.png" width="112" height="28"> -->
+        <span style="width: 112px; height: 28px; font-weight: bold; font-size: 28px">Zama</span>
+      </div>
   
       <a role="button" @click="handleClick" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navigation" >
         <span aria-hidden="true"></span>
@@ -38,7 +39,6 @@ export default {
 	});
     },
     handleNav(navId) {
-      console.log("HERE: ", navId);
       this.scrollTo(navId);
 
     },
