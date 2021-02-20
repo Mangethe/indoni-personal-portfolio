@@ -4,7 +4,7 @@
   <div class="container">
     <div class="columns">
       <div class="column is-11-desktop is-offset-1-desktop">
-        <h1 class="has-text-white font-tertiary">Hi! I’m <br> Christoher <br> UX designer</h1>
+        <h1 class="has-text-white font-tertiary">Hi! I’m <br> Zama Zulu <br> Full Stack developer</h1>
       </div>
     </div>
   </div>
