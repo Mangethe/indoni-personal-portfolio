@@ -11,7 +11,7 @@
           <img src="../images/portfolio/item-1.png" alt="portfolio-image" class="image is-full">
           <div class="hover-overlay">
             <div class="hover-content">
-              <a class="button is-small is-light" href="#">view project</a>
+              <a class="button is-small is-light">view project</a>
             </div>
           </div>
         </div>
@@ -21,7 +21,7 @@
           <img src="../images/portfolio/item-2.png" alt="portfolio-image" class="image is-full">
           <div class="hover-overlay">
             <div class="hover-content">
-              <a class="button is-small is-light" href="#">view project</a>
+              <a class="button is-small is-light">view project</a>
             </div>
           </div>
         </div>
@@ -31,7 +31,7 @@
           <img src="../images/portfolio/item-3.png" alt="portfolio-image" class="image is-full">
           <div class="hover-overlay">
             <div class="hover-content">
-              <a class="button is-small is-light" href="#">view project</a>
+              <a class="button is-small is-light">view project</a>
             </div>
           </div>
         </div>
@@ -41,7 +41,7 @@
           <img src="../images/portfolio/item-4.png" alt="portfolio-image" class="image is-full">
           <div class="hover-overlay">
             <div class="hover-content">
-              <a class="button is-small is-light" href="#">view project</a>
+              <a class="button is-small is-light">view project</a>
             </div>
           </div>
         </div>
@@ -51,7 +51,7 @@
           <img src="../images/portfolio/item-5.png" alt="portfolio-image" class="image is-full">
           <div class="hover-overlay">
             <div class="hover-content">
-              <a class="button is-small is-light" href="#">view project</a>
+              <a class="button is-small is-light">view project</a>
             </div>
           </div>
         </div>

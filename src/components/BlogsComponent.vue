@@ -11,12 +11,12 @@
             <img src="../images/blog/post-3.jpg" alt="Placeholder image">
           </figure>
           <div class="card-content">
-            <h4 class="mb-10"><a class="has-text-dark" href="blog-single.html">Amazon increase income 1.5 Million</a>
+            <h4 class="mb-10"><a class="has-text-dark">Amazon increase income 1.5 Million</a>
             </h4>
             <p class="mb-10">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
               incididunt ut labore et
               dolore magna aliqua.</p>
-            <a href="blog-single.html" class="button is-extra-small is-primary">Read More</a>
+            <a class="button is-extra-small is-primary">Read More</a>
           </div>
         </article>
       </div>
@@ -26,12 +26,12 @@
             <img src="../images/blog/post-4.jpg" alt="Placeholder image">
           </figure>
           <div class="card-content">
-            <h4 class="mb-10"><a class="has-text-dark" href="blog-single.html">Amazon increase income 1.5 Million</a>
+            <h4 class="mb-10"><a class="has-text-dark">Amazon increase income 1.5 Million</a>
             </h4>
             <p class="mb-10">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
               incididunt ut labore et
               dolore magna aliqua.</p>
-            <a href="blog-single.html" class="button is-extra-small is-primary">Read More</a>
+            <a class="button is-extra-small is-primary">Read More</a>
           </div>
         </article>
       </div>
@@ -41,12 +41,12 @@
             <img src="../images/blog/post-6.jpg" alt="Placeholder image">
           </figure>
           <div class="card-content">
-            <h4 class="mb-10"><a class="has-text-dark" href="blog-single.html">Amazon increase income 1.5 Million</a>
+            <h4 class="mb-10"><a class="has-text-dark">Amazon increase income 1.5 Million</a>
             </h4>
             <p class="mb-10">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
               incididunt ut labore et
               dolore magna aliqua.</p>
-            <a href="blog-single.html" class="button is-extra-small is-primary">Read More</a>
+            <a class="button is-extra-small is-primary">Read More</a>
           </div>
         </article>
       </div>

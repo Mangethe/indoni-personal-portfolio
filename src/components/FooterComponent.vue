@@ -6,7 +6,7 @@
       <div class="columns">
         <div class="column is-4-tablet">
           <h5 class="has-text-light">Email</h5>
-          <p class="has-text-white paragraph-lg font-secondary">tarra@gmail.com</p>
+          <p class="has-text-white paragraph-lg font-secondary">zama@gmail.com</p>
         </div>
         <div class="column is-4-tablet">
           <h5 class="has-text-light">Phone</h5>

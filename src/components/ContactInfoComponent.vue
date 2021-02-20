@@ -34,14 +34,14 @@
       </div>
     </div>
   </div>
-</section>
-<!-- /contact -->
+  </section>
+  <!-- /contact -->
 </template>
 
 <script>
 export default {
   name: "ContactInfoComponent",
-    data() {
+  data() {
     return {
       name: null,
       email: null,
@@ -53,7 +53,6 @@ export default {
   methods: {
     sendMail: function() {
       // in a real app, it would be better if the URL is extracted as a env variable
-      console.log("what happens here: ", this.name, this.email, this.message);
       const url = `https://us-central1-${process.env.VUE_APP_FIREBASE_PROJECT_ID}.cloudfunctions.net/submit`;
       const payload = {
         name: this.name,
@@ -81,5 +80,5 @@ export default {
       this.message = "";
     }
   }
-}
+};
 </script>

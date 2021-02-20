@@ -12,12 +12,12 @@
       </div>
     </div>
   </div>
-</section>
-<!-- /about -->
+  </section>
+  <!-- /about -->
 </template>
 
 <script>
 export default {
   name: "AboutComponent"
-}
+};
 </script>
